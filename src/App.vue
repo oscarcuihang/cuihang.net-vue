@@ -1,13 +1,20 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <router-view/>
+    <!-- <First msg="hello"/> -->
+    <Users />
   </div>
 </template>
 
 <script>
+import First from './components/first';
+import Users from './components/users';
+
 export default {
   name: 'App',
+  components: {
+    First,
+    Users,
+  },
 };
 </script>
 
