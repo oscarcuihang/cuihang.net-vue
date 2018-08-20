@@ -25,7 +25,7 @@
 
 <script>
 export default {
-  name: 'test',
+  name: 'First',
   props: {
     msg: {
       type: String,
