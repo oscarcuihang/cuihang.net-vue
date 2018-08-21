@@ -4,16 +4,16 @@
     <Menu mode="horizontal" active-name="1">
         <MenuItem name="1">
             <Icon type="ios-paper" />
-            内容管理
+            我
         </MenuItem>
         <MenuItem name="2">
             <Icon type="ios-people" />
-            用户管理
+            相片
         </MenuItem>
         <Submenu name="3">
             <template slot="title">
                 <Icon type="ios-stats" />
-                统计分析
+                其他
             </template>
             <MenuGroup title="使用">
                 <MenuItem name="3-1">新增和启动</MenuItem>
@@ -27,7 +27,7 @@
         </Submenu>
         <MenuItem name="4">
             <Icon type="ios-construct" />
-            综合设置
+            LoL
         </MenuItem>
     </Menu>
   </div>
