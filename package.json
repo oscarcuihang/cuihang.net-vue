@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "cuihang.net",
   "author": "Hang Cui <oscarcuihang@hotmail.com>",
+  "homepage": "https://github.com/oscarcuihang/cuihang.net-vue",
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
@@ -10,11 +11,13 @@
     "unit": "jest --config test/unit/jest.conf.js --coverage",
     "test": "npm run unit",
     "lint": "eslint --ext .js,.vue src test/unit",
-    "build": "node build/build.js"
+    "build": "node build/build.js",
+    "deploy": "node ./node_modules/vue-gh-pages/index.js"
   },
   "dependencies": {
     "iview": "^3.0.0",
     "vue": "^2.5.2",
+    "vue-gh-pages": "^1.18.2",
     "vue-resource": "^1.5.1",
     "vue-router": "^3.0.1"
   },

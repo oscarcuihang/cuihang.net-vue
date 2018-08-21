@@ -1,13 +1,15 @@
 <template>
   <div id="app">
     <!-- <First msg="hello"/> -->
-    <Users />
+    <!-- <Users /> -->
+    <router-view>
+    </router-view>
   </div>
 </template>
 
 <script>
-import First from './components/first';
-import Users from './components/users';
+import First from './components/First';
+import Users from './components/Users';
 
 export default {
   name: 'App',
